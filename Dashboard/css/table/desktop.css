@@ -1,0 +1,23 @@
+.container{
+    height: 100vh;
+    grid-template-columns: 200px repeat(4,1fr);
+    grid-template-rows:8% auto 5%;
+
+}
+  .nav>.logo{
+    display: flex;
+    justify-content: center;
+}
+.nav>ul{
+  align-items: flex-start;
+}
+.nav>ul>li{
+  display: block;
+
+}
+ .searchBox>.icons>p{
+    display: flex;
+}
+.bottom>.row>.row-item{
+  width: 10%;
+}

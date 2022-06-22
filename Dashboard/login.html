@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- !required meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <!-- login main-mobile css -->
+    <link href="./css/login/mainMobile.css" rel="stylesheet" />
+    <!-- login tablet css -->
+    <link
+      href="./css/login/tablet.css"
+      media="(min-width: 600px)"
+      rel="stylesheet"
+    />
+    <!-- login desktop css -->
+    <link
+      href="./css/login/desktop.css"
+      media="(min-width: 900px)"
+      rel="stylesheet"
+    />
+    <!-- icon font-awesome css -->
+    <link href="./css/all.min.css" rel="stylesheet" />
+    <!-- common css -->
+    <link href="./css/common.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="login">
+      <div class="flex-container">
+        <div class="flex-item"></div>
+        <div class="flex-item">
+          <h2>Welcome Back</h2>
+          <form>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter Email Address..."
+            />
+            <input
+              type="Password"
+              name="password"
+              id="password"
+              placeholder="Password"
+            />
+            <br />
+            <input
+              type="checkbox"
+              id="remember"
+              name="remember"
+              value="remember"
+            />
+            <label for="remember"> Remember Me</label>
+          </form>
+          <button class="log">Login</button>
+          <hr />
+          <button class="google"><i class="fab fa-google"></i> Login with Google</button>
+          <br />
+          <button class="fbook"><i class="fab fa-facebook-f"></i> Login with Facebook</button>
+          <hr />
+          <a href="#">Forgot Password?</a>
+          <br />
+          <a href="#">Create an Account</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

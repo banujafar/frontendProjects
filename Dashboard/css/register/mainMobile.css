@@ -1,0 +1,95 @@
+.register {
+  background-color: hsl(225, 69%, 58%);
+  height: 100vh;
+  padding: 30px;
+}
+.flex-container {
+  width: 100%;
+  background-color: #fff;
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+  font-size: 13px;
+  justify-content: center;
+}
+.flex-container > .flex-item:first-child {
+  height: 500px;
+
+  background-image: url(./../../img/dogs/image2.jpeg);
+  width: 50%;
+  display: none;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.flex-container > .flex-item:last-child {
+  padding-top: 30px;
+  width: 70%;
+  text-align: center;
+}
+.flex-item > h2 {
+  text-align: center;
+}
+/* form{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+} */
+form > input {
+  margin: 5px;
+}
+
+button {
+  margin: 10px;
+  width: 80%;
+  height: 40px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border: 1px solid #dddddd;
+  color: #fff;
+  cursor: pointer;
+  opacity: 0.8;
+}
+button:hover {
+  opacity: 1;
+}
+
+.flex-item > .log {
+  background-color: #4262be;
+}
+.flex-item > button.google {
+  background-color: #e93f30;
+}
+.flex-item > .fbook {
+  background-color: #3b5998;
+}
+hr {
+  width: 80%;
+  margin: 5px auto;
+}
+
+.flex-container > .flex-item > form > input {
+  height: 40px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 30px;
+  border: 1px solid #dddddd;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+form > input {
+  width: 100%;
+}
+
+.flex-item > a {
+  font-size: 13px;
+  color: #4262be;
+}

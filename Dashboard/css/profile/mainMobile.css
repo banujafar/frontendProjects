@@ -1,0 +1,429 @@
+.container {
+  display: grid;
+  grid-template-columns: 100px repeat(4, 1fr);
+  grid-template-rows: 3% auto 3%;
+  grid-template-areas:
+    "nav searchBox searchBox searchBox searchBox"
+    "nav main main main main"
+    "nav footer footer footer footer";
+}
+.item {
+  background-color: #dddddd;
+}
+.nav {
+  grid-area: nav;
+  background-color: rgb(99, 99, 228);
+}
+
+.searchBox {
+  grid-area: searchBox;
+}
+
+.main {
+  grid-area: main;
+  background-color: #f8f9fc;
+  padding: 10px;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.nav > .logo {
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  padding-top: 15px;
+}
+.nav > .logo > i {
+  font-size: 30px;
+  transform: rotate(335deg);
+  -webkit-transform: rotate(335deg);
+  -moz-transform: rotate(335deg);
+  -ms-transform: rotate(335deg);
+  -o-transform: rotate(335deg);
+}
+.nav > .logo > .fa-bars {
+  display: none;
+}
+.nav > .logo > h2 {
+  display: none;
+  margin-left: 15px;
+  margin-top: 2px;
+  font-size: 16px;
+}
+.nav > ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  margin-left: 10px;
+}
+.nav > ul > li {
+  padding: 10px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.nav > ul > li > a {
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.7;
+  font-size: 13px;
+  padding: 5px;
+}
+
+.nav > ul > li > i {
+  opacity: 0.7;
+  color: #fff;
+}
+.nav > ul > li:hover a,
+i {
+  opacity: 1;
+}
+.searchBox {
+  background-color: #fff;
+
+  box-shadow: 4px 4px #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+}
+.searchBox > .fa-bars {
+  font-size: 20px;
+  color: #5dade2;
+  margin-left: 15px;
+}
+.searchBox > form {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.searchBox > form > input {
+  width: 400px;
+  border: none;
+  height: 30px;
+  outline: none;
+  padding: 5px;
+  background-color: #dddddd;
+  display: none;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.searchBox > .icons > img {
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+.searchBox > form > button {
+  background-color: #4e73df;
+  width: 40px;
+  padding: 5px;
+  height: 30px;
+  border-bottom-right-radius: 4px;
+  border: none;
+  outline: none;
+  display: none;
+  color: #dddddd;
+  border-top-right-radius: 4px;
+}
+.searchBox > .icons {
+  display: flex;
+  align-items: center;
+}
+.searchBox > .icons > hr {
+  width: 30px;
+  opacity: 0.7;
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+}
+.icons > p {
+  display: none;
+  padding-right: 10px;
+}
+.fa-bell,
+.fa-envelope {
+  position: relative;
+}
+sup > span {
+  position: absolute;
+  background-color: #e74a3b;
+  color: #fff;
+  left: 13px;
+  bottom: 20px;
+  font-size: 10px;
+  padding: 2px 5px;
+  border-radius: 4px;
+}
+.fa-envelope > sup > span {
+  left: 15px;
+}
+.searchBox > .icons > i {
+  padding: 10px;
+}
+.main > .grid-container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
+}
+.main > .grid-container > .grid-item {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.main > h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.main > .grid-container > .grid-item:first-child {
+  display: flex;
+  justify-content: center;
+
+  border-radius: 4px;
+}
+.main > .grid-container > .grid-item > .profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main > .grid-container > .grid-item > .profile > img {
+  padding-bottom: 10px;
+  height: 150px;
+  width: 140px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+.main > .grid-container > .grid-item > .profile > button {
+  background-color: #4262be;
+  border: none;
+  outline: none;
+  color: #fff;
+  height: 30px;
+  padding: 0 10px;
+  text-align: center;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  opacity: 0.7;
+  -o-border-radius: 4px;
+  cursor: pointer;
+}
+.main > .grid-container > .grid-item > .profile > button:hover {
+  opacity: 1;
+}
+.main > .grid-container > .grid-item > .projects {
+  margin-top: 20px;
+  width: 100%;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+
+  background-color: #f8f9fc;
+}
+.projects > h2 {
+  margin-top: 15px;
+  margin-left: 15px;
+
+  color: #4e73df;
+}
+.projects > .flex-container > .item > .project-item {
+  height: 10px;
+  width: 90%;
+
+  background-color: #eaecf4;
+  margin: 10px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.projects > .flex-container > .item {
+  background-color: #fff;
+  position: relative;
+  padding-top: 10px;
+  font-size: 13px;
+}
+
+.projects > .flex-container > .item > p {
+  margin-left: 15px;
+}
+.projects > .flex-container > .item > span {
+  position: absolute;
+  right: 25px;
+  top: 10px;
+}
+.projects > hr {
+  color: grey;
+  opacity: 0.5;
+  margin-top: 10px;
+}
+
+.project-item > .color {
+  height: 10px;
+  width: 20%;
+  background-color: #e74a3b;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.project-item > .one {
+  background-color: #e74a3b;
+}
+.project-item > .two {
+  background-color: #f6c23e;
+  width: 40%;
+}
+.project-item > .three {
+  background-color: #4e73df;
+  width: 60%;
+}
+.project-item > .four {
+  background-color: #36b9cc;
+  width: 80%;
+}
+.project-item > .five {
+  background-color: #1cc88a;
+  width: 100%;
+}
+
+.grid-item > .user {
+  display: flex;
+  flex-direction: column;
+}
+.grid-item > h2 {
+  margin-top: 15px;
+  margin-left: 15px;
+  color: #4e73df;
+}
+.user > .flex-item {
+  width: 100%;
+  margin: 10px;
+}
+.grid-item > hr {
+  margin-top: 10px;
+  color: #dddddd;
+}
+.user > .flex-item > input {
+  height: 30px;
+  width: 80%;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 4px;
+  border: 1px solid #dddddd;
+  outline: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.user > .flex-item > label {
+  padding-left: 10px;
+}
+.grid-item > button {
+  background-color: #4e73df;
+  border: 1px solid #dddddd;
+  padding: 10px;
+  color: #fff;
+  border-radius: 4px;
+  margin-top: 10px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  cursor: pointer;
+}
+
+.grid-item > form.contact > .flex-item {
+  margin-top: 15px;
+}
+.grid-item > form.contact input {
+  margin-top: 10px;
+}
+.form {
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 10px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  margin-top: 10px;
+  position: relative;
+}
+.form > h2 {
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: #4e73df;
+}
+.form > form > input {
+  height: 100px;
+  width: 100%;
+  border: 1px solid #dddd;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.form > .check {
+  height: 20px;
+  width: 10%;
+  margin-left: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+.form > .check > .chk {
+  height: 13px;
+  width: 25%;
+  background-color: #dddddd;
+  margin-top: 2px;
+  border-radius: 100%;
+  margin-left: 2px;
+  -webkit-border-radius: 1px solid red;
+  -moz-border-radius: 1px solid red;
+  -ms-border-radius: 1px solid red;
+  -o-border-radius: 1px solid red;
+}
+.form > p {
+  position: absolute;
+  left: 70px;
+  bottom: 60px;
+}
+.form > button {
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 10px;
+  background-color: #4e73df;
+  color: #fff;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
