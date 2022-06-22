@@ -1,0 +1,48 @@
+/*       Structure classes   */
+
+/*       Container  Css      */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.useless {
+  padding-left: 8.5%;
+  padding-right: 8.5%;
+}
+/*      Form classes       */
+.border-none {
+  border: none;
+}
+.outline-none {
+  outline: none;
+}
+/*      Flex classes     */
+.d-flex {
+  display: flex;
+}
+.align-end {
+  align-items: flex-end;
+}
+.align-center {
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.justify-around{
+  justify-content: space-around;
+}
+:root {
+  --weight-300: 300;
+  --serif: "Open Sans", sans-serif;
+  --serif-montserrat: "Montserrat";
+  --color-white: white;
+  --weight-400: 400;
+  --weight-700: 700;
+}

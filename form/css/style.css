@@ -26,8 +26,8 @@
 /* Content Css */
 .content {
   background: #446a46;
-  padding: 50px 0;
-  height: 100vh;
+  padding: 50px 0 3.6% 0;
+  overflow: hidden;
 }
 h1 {
   text-align: center;
