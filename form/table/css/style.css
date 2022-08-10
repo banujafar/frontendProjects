@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 80%;
+  background-color: rgb(236, 227, 227);
+  margin-left: 10%;
+  margin-top: 5%;
+  padding: 10px;
+}
+h1 {
+  text-align: center;
+
+}
+hr {
+  border: 1px solid #fff;
+    margin-top:10px;
+}
+table {
+  width: 75%;
+  background-color: #fff;
+  margin: 30px 0 40px 150px;
+  border-spacing: 0;
+}
+thead {
+  background-color: rgb(194, 181, 181);
+}
+tbody > tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+tbody > tr:nth-child(even) {
+  background-color: rgb(202, 201, 201);
+}
+tbody > tr:nth-child(odd):hover,
+tbody > tr:nth-child(even):hover {
+  cursor: crosshair;
+  opacity: 0.5;
+}
+
+th {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  text-align: left;
+}
+
+td {
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.Progress {
+  width: 80%;
+  padding: 5px;
+  background-color: green;
+  color: #fff;
+}
+.open {
+  width: 60%;
+  background-color: indianred;
+  padding: 5px;
+  color: #fff;
+}
+.hold {
+  width: 70%;
+  background-color: lightcoral;
+  padding: 5px;
+  color: #fff;
+}
+.Progress:hover,
+.open:hover,
+.hold:hover {
+  transform: translate(15px, 5px);
+  -webkit-transform: translate(15px, 5px);
+  -moz-transform: translate(15px, 5px);
+  -ms-transform: translate(15px, 5px);
+  -o-transform: translate(15px, 5px);
+}
