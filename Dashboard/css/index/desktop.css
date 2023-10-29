@@ -1,0 +1,48 @@
+.container {
+  height: 100vh;
+}
+.main > .flex-container > .flex-item {
+  width: 24%;
+}
+
+.nav > ul > li {
+  display: block;
+}
+
+.nav > ul {
+  margin-left: -15px;
+  align-items: flex-start;
+}
+
+.main > .flex-container {
+  justify-content: center;
+}
+.main > .flex-container > .left {
+  width: 60% !important;
+  margin: 15px;
+}
+.main > .flex-container > .right {
+  margin-top: 10px;
+  width: 30% !important;
+}
+.projects {
+  width: 50%;
+}
+.color-palette {
+  width: 50%;
+}
+.color-palette > .items {
+  width: 40%;
+  position: relative;
+  padding: 10px;
+}
+.color-palette > .items > span {
+  position: absolute;
+  bottom: 10px;
+}
+.todo-list {
+  width: 60%;
+}
+.searchBox > .icons > p {
+  display: flex;
+}

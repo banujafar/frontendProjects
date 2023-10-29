@@ -1,0 +1,12 @@
+.flex-container > .flex-item:first-child {
+  display: flex;
+}
+.flex-container {
+  width: 70%;
+}
+form > input:not(input[type="email"]) {
+  width: 40%;
+}
+form > input[type="email"] {
+  width: 80%;
+}

@@ -1,0 +1,127 @@
+nav{
+    align-items: center!important;
+}
+/* Nav Button Css */
+
+.btn > a {
+    display: flex;
+    margin-right: 20px;
+    margin-bottom: 1px;
+ 
+}
+.btn > button {
+    display: flex;
+    margin-right: 20px;
+    text-align: center;
+}
+/* Home-content-header Css */
+.content > h1 {
+    max-width: 700px;
+    line-height: 50px;
+    font-weight: 550;
+    font-size: 38px;
+}
+/* Home-content-paragraph Css */
+.content > p {
+    max-width: 600px;
+    line-height: 35px;
+    font-size: 20px;
+}
+/* .container-row{
+    margin-bottom: 10px;
+} */
+/* Home-Features Row Css */
+ .container-row>.row{
+    margin-bottom: 30px;
+     width: 34%;
+ }
+ .about{
+     margin:80px 40px !important;
+ }
+/* About-text Css */
+.about-text{
+    width: 100%;
+    margin-left: 10px;
+}
+/* pricing row Css  */
+.container-pricing>.row{
+    margin:80px 40px;
+}
+     /* row item css */
+     .container-pricing>.row>.item{
+         width: 50%;
+     }
+     /* Faq Row Css */
+     .faq{
+         margin: 80px 40px!important;
+     }
+  .faq>.row>.item{
+    width: 100%;
+  
+  }
+  /* Testimonal heading Css */
+  .testimonal{
+      margin: 80px 40px;
+  }
+  .testimonal>h2{
+      text-align: center;
+  }
+  /* Testimonal Row Css */
+  .testimonal>.row{
+      margin-top: 40px;
+  }
+  .testimonal>.row>.item{
+    width: 45%;
+    padding: 10px;
+    
+  
+}
+ /* Testimonal paragraph Css */
+ .testimonal-paragraph>p{
+     line-height: 30px;
+ }
+ /* Team Css */
+ .team{
+     margin: 80px 40px;
+ }
+ /* Team Row Item Css */
+.team>.row>.item{
+    width: 45%;
+
+  }
+  /* Contact Row Css */
+  .contact{
+      margin: 80px 0;
+    
+  }
+  .contact>.row{
+    margin-top: -100px;
+}
+ .contact>.row>.item{
+    width: 100%!important;
+  }
+  .contact>.row>.item:first-child{
+      padding: 120px 40px;
+  }
+  .row-info>.item{
+      margin-top: 20px;
+     
+        width: 50%;
+    
+  }
+  
+.contact>.row>.item:last-child{
+    margin-top: -150px;
+    margin-right: 50px;
+    margin-left:50px;
+}
+/* Footer Css */
+.footer>.row>.item{
+ 
+    width: 50%;
+}
+/* Footer-bottom Part Css */
+.footer-bottom{
+    margin-top: 300px;
+ 
+}

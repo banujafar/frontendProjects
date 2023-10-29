@@ -1,0 +1,33 @@
+.container {
+  grid-template-columns: 200px repeat(4, 1fr);
+  grid-template-rows: 8% auto 5%;
+ 
+}
+.main > .grid-container {
+  grid-template-columns: 1fr 2fr;
+}
+.main > .grid-container > .grid-item > .user {
+  flex-direction: row !important;
+}
+.main > .grid-container > .grid-item > .contact {
+  display: flex;
+  flex-direction: column;
+}
+.form > .check {
+  width: 6%;
+}
+.searchBox > form > input {
+  display: flex;
+}
+.nav > .logo > h2 {
+  display: inline-block;
+}
+.searchBox > .fa-bars {
+  display: none;
+}
+.searchBox > .icons > .fa-search {
+  display: none;
+}
+.searchBox > form > button {
+  display: flex;
+}

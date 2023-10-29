@@ -1,0 +1,17 @@
+
+.searchBox>form>input{
+    display: flex;
+  }
+  .nav>.logo>h2{
+    display: inline-block;
+  }
+  .searchBox>.fa-bars{
+    display: none;
+  }
+  .searchBox>.icons>.fa-search{
+    display: none;
+  }
+  .searchBox>form>button{
+      display: flex;
+  }
+ 

@@ -1,0 +1,34 @@
+.container {
+  grid-template-columns: 200px repeat(4, 1fr);
+  grid-template-rows: 8% auto 5%;
+}
+
+.item {
+  padding: 0 25px;
+}
+
+.nav > .logo {
+  display: flex;
+  justify-content: center;
+}
+.nav > .logo > .fa-bars {
+  display: none !important;
+}
+.main > .flex-container > .right {
+  width: 100%;
+}
+.searchBox > form > input {
+  display: flex;
+}
+.nav > .logo > h2 {
+  display: flex;
+}
+.searchBox > .fa-bars {
+  display: none;
+}
+.searchBox > .icons > .fa-search {
+  display: none;
+}
+.searchBox > form > button {
+  display: flex;
+}

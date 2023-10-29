@@ -1,0 +1,17 @@
+/* !900px++ laptops*/
+.row{
+    margin-left:15px;
+}
+.before-leave-content>.content-item{
+    width:33.3%;
+  float:left;
+  text-align: justify;
+}
+footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer>ul{
+  display: flex !important;
+}

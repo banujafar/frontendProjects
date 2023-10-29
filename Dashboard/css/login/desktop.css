@@ -1,0 +1,12 @@
+.flex-container > .flex-item:first-child {
+  display: flex;
+}
+button {
+  width: 80%;
+}
+form > input:not(input[type="checkbox"]) {
+  width: 80%;
+}
+.flex-container {
+  width: 70%;
+}

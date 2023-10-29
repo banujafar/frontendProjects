@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+  /*  Flex Css */
+.d-flex{
+    display:flex;
+
+}
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+
+.justify-around{
+    justify-content: space-around;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.direction-column{
+    flex-direction: column;
+}
+.direction-row{
+    flex-direction: row;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.align-start{
+  align-items: flex-start;
+}
+  /* Root  */
+  :root{
+      --font:"Inter",sans-serif;
+  }
+  /* Global Section */
+  .section{
+     margin: 82px 130px;
+  }
